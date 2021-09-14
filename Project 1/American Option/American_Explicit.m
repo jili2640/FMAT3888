@@ -10,7 +10,6 @@ K=100;
 
 dt = T/Nt; %time steps
 ds=(Smax-Smin)/Ns; %price steps
-
 V(1:Ns+1,1+Ns+1)=0;
 S=Smin+(0:Ns)*ds;
 t=(0:Nt)*dt;
